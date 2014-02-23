@@ -1,0 +1,28 @@
+fuzzer
+======
+
+A simple fuzzer for educational purposes.
+
+
+Usage
+-----
+
+mutate.py TEMPLATE PROGRAM
+
+This fuzzer will mutate TEMPLATE and run PROGRAM on the mutations. The only
+mutation that's currently available replaces bytes in the input with random
+bytes based on a probability. Run "mutate.py -h" for more usage info.
+
+
+Improvements
+------------
+
+* Add a mode that increments/decrements bytes instead of replacing with random
+  a value.
+* Add ASCII-only mode for programs with ASCII inputs.
+
+
+License
+-------
+
+Code is available under the MIT license, see LICENSE for details.
